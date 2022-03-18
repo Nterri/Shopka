@@ -908,21 +908,9 @@ main .filter-sidebar__item:not(:last-child) {
 main .head-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 24px;
-}
-
-main .item-filter .item-filter__select {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 143%;
-  align-items: center;
-  letter-spacing: 0.018em;
-  border: 1px solid #5a5b6a;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 6px 12px;
 }
 
 main .view-content {
