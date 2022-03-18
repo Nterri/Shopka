@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220319013531">
+   <link rel="stylesheet" href="../files/nouislider.min.css?_v=20220319013531">
+   <link rel="icon" href="img/favicon.svg" type="image/svg">
+   <title>Shopka</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header id="header" class="header lock-padding">
+   <div class="header__container">
+      <div class="header__logo">
+         <a href="../index.html">
+            <picture>
+               <source srcset="img/favicon.svg" media="(max-width: 600px)" />
+               <img src="img/logo.png" />
+            </picture>
+         </a>
+      </div>
+      <div class="header__form">
+         <form class="form">
+            <button class="input icon-search" type="submit"></button>
+            <input class="search" type="text" name="search" required>
+            <button class="form__close icon-close"></button>
+         </form>
+      </div>
+      <div class="header__user user">
+         <a href="#" class="user__sign user__btn">Sign in</a>
+         <a href="#" class="user__cart user__btn">My cart<span>5</span></a>
+         <a href="#" class="user__image"><picture><source srcset="img/user.webp" type="image/webp"><img src="img/user.png" alt="user"></picture></a>
+      </div>
+   </div>
+</header>
+      <main>
+         <section class="nav">
+            <div class="nav__container container">
+               <div class="nav__item">
+                  <div class="nav__item-title nav__item-title-arrow active">Category<span></span></div>
+                  <div class="nav__item-content"></div>
+               </div>
+               <div class="nav__body">
+                  <a href="#" class="nav__link active icon-clothing">Clothing & Shoes</a>
+                  <a href="#" class="nav__link icon-entertainment">Entertainment</a>
+                  <a href="#" class="nav__link icon-music">Music</a>
+                  <a href="#" class="nav__link icon-sport">Sport & Lifestyle</a>
+                  <a href="#" class="nav__link icon-pets">Pets</a>
+                  <a href="#" class="nav__link icon-kitchen">Kitchen Accessories</a>
+                  <a href="#" class="nav__link icon-travel">Travel Equipment</a>
+                  <a href="#" class="nav__link icon-garden">Growing & Garden</a>
+                  <a href="#" class="nav__link icon-electrical">Electrical Tools</a>
+                  <a href="#" class="nav__link icon-mother">Mother Care</a>
+                  <a href="#" class="nav__link icon-toys">Toys & Entertainment</a>
+                  <a href="#" class="nav__link icon-vintage">Vintage</a>
+               </div>
+            </div>
+         </section>
+         <section class="main-part">
+            <div class="main-part__sidebar sidebar">
+               <a href="#popup" class="popup-link"><button
+                     class="sidebar__category-menu icon-category"><span></span>Category</button></a>
+               <div class="sidebar__menu menu-sidebar">
+                  <button class="menu-sidebar__title icon-arrow nav-title active">All Categories</button>
+                  <div class="menu-sidebar__content menu-nav nav-content active">
+                     <button class="menu-nav__link icon-arrow nav-title">Electronics</button>
+                     <div class="menu-nav__content nav-content">
+                        <button class="menu-nav__link icon-arrow nav-title">Cell Phones & Smartphones</button>
+                        <ul class="menu-nav__content nav-content nav-list">
+                           <li class="nav-item"><a href="#">Cell Phone Accessories</a></li>
+                           <li class="nav-item"><a href="#">Cell Phone Gatgets</a></li>
+                           <li class="nav-item"><a href="#">Applications</a></li>
+                           <li class="nav-item"><a href="#">Smart Watches</a></li>
+                           <li class="nav-item"><a href="#">Applications</a></li>
+                           <li class="nav-item"><a href="#">Smart Watches</a></li>
+                           <button class="nav__btn">Show more</button>
+                        </ul>
+                     </div>
+                     <button class="menu-nav__link icon-arrow nav-title">Business & Industrial</button>
+                     <ul class="menu-nav__content nav-content nav-list">
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 2</a></li>
+                        <li class="nav-item"><a href="#">Item 3</a></li>
+                        <li class="nav-item"><a href="#">Item 4</a></li>
+                        <li class="nav-item"><a href="#">Item 5</a></li>
+                        <li class="nav-item"><a href="#">Item 6</a></li>
+                        <li class="nav-item"><a href="#">Item 7</a></li>
+                        <button class="nav__btn">Show more</button>
+                     </ul>
+                     <button class="menu-nav__link icon-arrow nav-title">Computers</button>
+                     <ul class="menu-nav__content nav-content nav-list">
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 2</a></li>
+                        <li class="nav-item"><a href="#">Item 3</a></li>
+                        <li class="nav-item"><a href="#">Item 4</a></li>
+                        <li class="nav-item"><a href="#">Item 5</a></li>
+                        <li class="nav-item"><a href="#">Item 6</a></li>
+                        <button class="nav__btn">Show more</button>
+                     </ul>
+                     <button class="menu-nav__link icon-arrow nav-title">Consumer Electroinics</button>
+                     <ul class="menu-nav__content nav-content nav-list">
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 2</a></li>
+                        <li class="nav-item"><a href="#">Item 3</a></li>
+                        <li class="nav-item"><a href="#">Item 4</a></li>
+                        <li class="nav-item"><a href="#">Item 5</a></li>
+                        <li class="nav-item"><a href="#">Item 6</a></li>
+                        <li class="nav-item"><a href="#">Item 7</a></li>
+                        <li class="nav-item"><a href="#">Item 8</a></li>
+                        <button class="nav__btn">Show more</button>
+                     </ul>
+                     <button class="menu-nav__link icon-arrow nav-title">Home & Garden</button>
+                     <ul class="menu-nav__content nav-content nav-list">
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 2</a></li>
+                        <li class="nav-item"><a href="#">Item 3</a></li>
+                        <li class="nav-item"><a href="#">Item 4</a></li>
+                        <li class="nav-item"><a href="#">Item 5</a></li>
+                        <button class="nav__btn">Show more</button>
+                     </ul>
+                     <button class="menu-nav__link icon-arrow nav-title">Collectibles</button>
+                     <ul class="menu-nav__content nav-content nav-list">
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 2</a></li>
+                        <li class="nav-item"><a href="#">Item 3</a></li>
+                        <li class="nav-item"><a href="#">Item 4</a></li>
+                        <button class="nav__btn">Show more</button>
+                     </ul>
+                  </div>
+               </div>
+               <div class="sidebar__filter filter-sidebar">
+                  <div class="filter-sidebar__item">
+                     <button class="filter-sidebar__title">Price<span class="icon-arrow"></span></button>
+                     <div class="filter-sidebar__content content-filter none">
+                        <div class="content-filter__show-price price-show">
+                           <div class="price-show__input"><input class="input" id="input-number-1">$</input></div>
+                           <div class="price-show__input"><input class="input" id="input-number-2">$</input></div>
+                        </div>
+                        <div class="slider" id="slider"></div>
+                     </div>
+                  </div>
+                  <div class="filter-sidebar__item">
+                     <button class="filter-sidebar__title">Collapsed filters<span class="icon-arrow"></span></button>
+                     <div class="filter-sidebar__content content-filter none">
+                        <form class="content-filter__form">
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="1" id="1">
+                              <label class="checkbox-label" for="1">Filter 1</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="2" id="2">
+                              <label class="checkbox-label" for="2">Filter 2</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="3" id="3">
+                              <label class="checkbox-label" for="3">Filter 3</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="4" id="4">
+                              <label class="checkbox-label" for="4">Filter 4</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="5" id="5">
+                              <label class="checkbox-label" for="5">Filter 5</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="6" id="6">
+                              <label class="checkbox-label" for="6">Filter 6</label>
+                           </p>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="filter-sidebar__item">
+                     <button class="filter-sidebar__title">Expanded Filters<span class="icon-arrow"></span></button>
+                     <div class="filter-sidebar__content content-filter none">
+                        <form class="content-filter__form">
+                           <p>
+                              <input class="filter-radio" checked type="radio" name="filter" value="7" id="7">
+                              <label class="radio-label" for="7">Recommended</label>
+                           </p>
+                           <p>
+                              <input class="filter-radio" type="radio" name="filter" value="8" id="8">
+                              <label class="radio-label" for="8">Recently Added</label>
+                           </p>
+                           <p>
+                              <input class="filter-radio" type="radio" name="filter" value="9" id="9">
+                              <label class="radio-label" for="9">Expiring Soon</label>
+                           </p>
+                           <p>
+                              <input class="filter-radio" type="radio" name="filter" value="10" id="10">
+                              <label class="radio-label" for="10">Most Rated</label>
+                           </p>
+                           <p>
+                              <input class="filter-radio filter__low-high" type="radio" name="filter" value="11" id="11">
+                              <label class="radio-label" for="11">Price: Low → High</label>
+                           </p>
+                           <p>
+                              <input class="filter-radio" type="radio" name="filter" value="12" id="12">
+                              <label class="radio-label" for="12">Price: High → Low</label>
+                           </p>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="filter-sidebar__item">
+                     <button class="filter-sidebar__title">Year of manufacturing<span
+                           class="icon-arrow"></span></button>
+                     <div class="filter-sidebar__content content-filter none">
+                        <form class="content-filter__form">
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="13" id="13">
+                              <label class="checkbox-label" for="13">1954</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="14" id="14">
+                              <label class="checkbox-label" for="14">1955</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="15" id="15">
+                              <label class="checkbox-label" for="15">1956</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="16" id="16">
+                              <label class="checkbox-label" for="16">1957</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="17" id="17">
+                              <label class="checkbox-label" for="17">1958</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="18" id="18">
+                              <label class="checkbox-label" for="18">1959</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="19" id="19">
+                              <label class="checkbox-label" for="19">1960</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="20" id="20">
+                              <label class="checkbox-label" for="20">1961</label>
+                           </p>
+                           <p>
+                              <input class="filter-checkbox" type="checkbox" value="21" id="21">
+                              <label class="checkbox-label" for="21">1962-2022</label>
+                           </p>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main-part__content content">
+               <div class="content__head head-content">
+                  <div class="head-content__small-filter small-filter">
+                     <div class="small-filter__item item-filter">
+                        <select name="" id="" class="item-filter__select ">
+                           <option value="1">Item1</option>
+                           <option value="2">Item2</option>
+                           <option value="3">Item3</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="head-content__view view-content">
+                     <div class="view-content__show show-content">
+                        <button class="show-content__btn">Show all</button>
+                        <button class="show-content__btn active">Auction</button>
+                        <button class="show-content__btn">Buy now</button>
+                     </div>
+                     <div class="view-content__how-show show-how">
+                        <button class="show-how__btn icon-row"></button>
+                        <button class="show-how__btn icon-block active"></button>
+                     </div>
+                  </div>
+               </div>
+               <div class="content__related related-content">
+                  <ul class="related-content__list">
+                     <div class="related-content__title">Related</div>
+                     <li><a href="#">worldwide shipping</a></li>
+                     <li><a href="#">under $50</a></li>
+                     <li><a href="#">kitten</a></li>
+                     <li><a href="#">plastic plugs</a></li>
+                     <li><a href="#">pucker shoes</a></li>
+                     <li><a href="#">vintage typewriter</a></li>
+                  </ul>
+               </div>
+               <div class="content-body block">
+                  <div class="content-body__no">Нет товаров</div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item1.webp" type="image/webp"><img src="img/content/item1.png" alt="item1"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Vintage Typewriter to post awesome stories about UI design and
+                           webdev.
+                        </h2>
+                        <div class="item-body__price">$49.50<span class="after-price none"></span></div>
+                        <div class="item-body__description">Eligible for Shipping To Mars or somewhere else</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-1">
+                                    <input type="radio" class="rate__item" value="2" name="rate-1">
+                                    <input type="radio" class="rate__item" value="3" name="rate-1">
+                                    <input type="radio" class="rate__item" value="4" name="rate-1">
+                                    <input type="radio" class="rate__item" value="5" name="rate-1">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.05</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item2.webp" type="image/webp"><img src="img/content/item2.png" alt="item2"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Lee Pucker design. Leather botinki for handsome designers. Free
+                           shipping.</h2>
+                        <div class="item-body__price">$13.95<span class="after-price none"></span></div>
+                        <div class="item-body__description">1258 bids, 359 watchers <br><span>$5.95 for shipping</span>
+                        </div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-2">
+                                    <input type="radio" class="rate__item" value="2" name="rate-2">
+                                    <input type="radio" class="rate__item" value="3" name="rate-2">
+                                    <input type="radio" class="rate__item" value="4" name="rate-2">
+                                    <input type="radio" class="rate__item" value="5" name="rate-2">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.56</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item3.webp" type="image/webp"><img src="img/content/item3.png" alt="item3"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Timesaving kitten to save months on development. Playful, cute,
+                           cheap!
+                        </h2>
+                        <div class="item-body__price">$128.99<span class="after-price none"></span></div>
+                        <div class="item-body__description">Eligible for nothing :(</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-3">
+                                    <input type="radio" class="rate__item" value="2" name="rate-3">
+                                    <input type="radio" class="rate__item" value="3" name="rate-3">
+                                    <input type="radio" class="rate__item" value="4" name="rate-3">
+                                    <input type="radio" class="rate__item" value="5" name="rate-3">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.87</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item4.webp" type="image/webp"><img src="img/content/item4.png" alt="item4"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Plastic useless plugs and tubes for high-fidelity prototyping.
+                           Fit &
+                           Eat!</h2>
+                        <div class="item-body__price">$12.48<span class="after-price green">50% OFF</span></div>
+                        <div class="item-body__description">Wordwide shitting available Buyers protection
+                           possible!</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-4">
+                                    <input type="radio" class="rate__item" value="2" name="rate-4">
+                                    <input type="radio" class="rate__item" value="3" name="rate-4">
+                                    <input type="radio" class="rate__item" value="4" name="rate-4">
+                                    <input type="radio" class="rate__item" value="5" name="rate-4">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.99</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item5.webp" type="image/webp"><img src="img/content/item5.png" alt="item5"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Creativity stimulating lotion. Drink every morning to
+                           generate better
+                           ideas!</h2>
+                        <div class="item-body__price">$12.48<span class="after-price none"></span></div>
+                        <div class="item-body__description">Wordwide shifting available Buyers protection
+                           possible!</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-5">
+                                    <input type="radio" class="rate__item" value="2" name="rate-5">
+                                    <input type="radio" class="rate__item" value="3" name="rate-5">
+                                    <input type="radio" class="rate__item" value="4" name="rate-5">
+                                    <input type="radio" class="rate__item" value="5" name="rate-5">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.99</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item6.webp" type="image/webp"><img src="img/content/item6.png" alt="item6"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Prototyping items to create a lot if useless things...
+                        </h2>
+                        <div class="item-body__price">$128.99<span class="after-price none"></span></div>
+                        <div class="item-body__description">Showcasing onHovered state</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-6">
+                                    <input type="radio" class="rate__item" value="2" name="rate-6">
+                                    <input type="radio" class="rate__item" value="3" name="rate-6">
+                                    <input type="radio" class="rate__item" value="4" name="rate-6">
+                                    <input type="radio" class="rate__item" value="5" name="rate-6">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.87</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item7.webp" type="image/webp"><img src="img/content/item7.png" alt="item7"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">John Von Ebalkin SPRING </h2>
+                        <div class="item-body__price">$13.95<span class="after-price none"></span></div>
+                        <div class="item-body__description">1258 bids, 359 watchers <br><span>$5.95 for
+                              shipping</span>
+                        </div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-7">
+                                    <input type="radio" class="rate__item" value="2" name="rate-7">
+                                    <input type="radio" class="rate__item" value="3" name="rate-7">
+                                    <input type="radio" class="rate__item" value="4" name="rate-7">
+                                    <input type="radio" class="rate__item" value="5" name="rate-7">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.56</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item8.webp" type="image/webp"><img src="img/content/item8.png" alt="item8"></picture>
+                     </div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Envelope, Stripes, Pencil and etc. Purchase this
+                           kit today and feel
+                           OKAY</h2>
+                        <div class="item-body__price">$9.50<span class="after-price none"></span></div>
+                        <div class="item-body__description">Eligible for Shipping To Mars or somewhere
+                           else</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-8">
+                                    <input type="radio" class="rate__item" value="2" name="rate-8">
+                                    <input type="radio" class="rate__item" value="3" name="rate-8">
+                                    <input type="radio" class="rate__item" value="4" name="rate-8">
+                                    <input type="radio" class="rate__item" value="5" name="rate-8">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.77</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item9.webp" type="image/webp"><img src="img/content/item9.png" alt="item9"></picture>
+                     </div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Professional teadrinking set for every designer
+                           and developer</h2>
+                        <div class="item-body__price">$128.99<span class="after-price none"></span>
+                        </div>
+                        <div class="item-body__description">Eligible for nothing :(</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-9">
+                                    <input type="radio" class="rate__item" value="2" name="rate-9">
+                                    <input type="radio" class="rate__item" value="3" name="rate-9">
+                                    <input type="radio" class="rate__item" value="4" name="rate-9">
+                                    <input type="radio" class="rate__item" value="5" name="rate-9">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.87</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item10.webp" type="image/webp"><img src="img/content/item10.png" alt="item10"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">One string Bonsai description</h2>
+                        <div class="item-body__price">$11.68<span class="after-price none"></span>
+                        </div>
+                        <div class="item-body__description">Wordwide shifting available Buyers
+                           protection possible!</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-10">
+                                    <input type="radio" class="rate__item" value="2" name="rate-10">
+                                    <input type="radio" class="rate__item" value="3" name="rate-10">
+                                    <input type="radio" class="rate__item" value="4" name="rate-10">
+                                    <input type="radio" class="rate__item" value="5" name="rate-10">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.99</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item11.webp" type="image/webp"><img src="img/content/item11.png" alt="item11"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">Simply best item in town to shine bright
+                           with your Nine Inch Nails</h2>
+                        <div class="item-body__price">$1.25<span class="after-price pink">Cool deal!</span></div>
+                        <div class="item-body__description">Eligible for Shipping To Mars or
+                           somewhere else</div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-11">
+                                    <input type="radio" class="rate__item" value="2" name="rate-11">
+                                    <input type="radio" class="rate__item" value="3" name="rate-11">
+                                    <input type="radio" class="rate__item" value="4" name="rate-11">
+                                    <input type="radio" class="rate__item" value="5" name="rate-11">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.77</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content-body__item item-body">
+                     <div class="item-body__image"><picture><source srcset="img/content/item12.webp" type="image/webp"><img src="img/content/item12.png" alt="item12"></picture></div>
+                     <div class="item-body__info">
+                        <h2 class="item-body__name">KISTOCHKI & KRASIBO. Top cosmetics
+                           brand from Chelyabinsk is here!</h2>
+                        <div class="item-body__price">$23.25<span class="after-price none"></span></div>
+                        <div class="item-body__description">1258 bids, 359 watchers
+                           <br><span>$5.95 for shipping</span>
+                        </div>
+                        <div class="item-body__footer">
+                           <div class="item-body__rate rate">
+                              <div class="rate__body">
+                                 <div class="rate__active"></div>
+                                 <div class="rate__items">
+                                    <input type="radio" class="rate__item" value="1" name="rate-12">
+                                    <input type="radio" class="rate__item" value="2" name="rate-12">
+                                    <input type="radio" class="rate__item" value="3" name="rate-12">
+                                    <input type="radio" class="rate__item" value="4" name="rate-12">
+                                    <input type="radio" class="rate__item" value="5" name="rate-12">
+                                 </div>
+                              </div>
+                              <div class="rate__value">4.56</div>
+                           </div>
+                           <a href="#" class="item-body__btn icon-love">Watch</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="content__button button-content">
+                  <a href="#" class="button-content__link link-content">
+                     <div class="link-content__image"><picture><source srcset="img/link1.webp" type="image/webp"><img src="img/link1.png" alt="link1"></picture></div>
+                     <div class="link-content__title">Clear & Usable user flows</div>
+                     <div class="link-content__text">Let’s boost yout marketplace</div>
+                  </a>
+                  <a href="#" class="button-content__link link-content">
+                     <div class="link-content__image"><picture><source srcset="img/link2.webp" type="image/webp"><img src="img/link2.png" alt="link2"></picture></div>
+                     <div class="link-content__title">Fine & Styled components</div>
+                     <div class="link-content__text">Speed up with Setproduct templates
+                     </div>
+                  </a>
+                  <a href="#" class="button-content__link link-content">
+                     <div class="link-content__image"><picture><source srcset="img/link3.webp" type="image/webp"><img src="img/link3.png" alt="link3"></picture></div>
+                     <div class="link-content__title">Customizable & Reusable</div>
+                     <div class="link-content__text">Take our UX patterns and rebuild
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </section>
+         <section class="category-menu">
+            <div id="popup" class="popup">
+               <div class="popup__body">
+                  <div class="popup__content">
+                     <a href="#" class="popup__close close-popup"></a>
+                     <div class="popup__content">
+                        <div class="category-menu__head">
+                           <div class="category-menu__title">Shop by product</div>
+                           <a href="#" class="category-menu__button">See all markets</a>
+                        </div>
+                        <div class="category-menu__body body-menu">
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-art">Collectibles & Art</a>
+                              <li class="list-menu__item"><a href="#">Collectibles</a></li>
+                              <li class="list-menu__item"><a href="#">Coins and Paper Money</a></li>
+                              <li class="list-menu__item"><a href="#">Sports Memorabilia</a></li>
+                              <li class="list-menu__item"><a href="#">Fantiki & Vkladish 🔥</a></li>
+                              <li class="list-menu__item"><a href="#">Postcards</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-fashion">Fashion & Style</a>
+                              <li class="list-menu__item"><a href="#">Women</a></li>
+                              <li class="list-menu__item"><a href="#">Men</a></li>
+                              <li class="list-menu__item"><a href="#">Watches</a></li>
+                              <li class="list-menu__item"><a href="#">Shoes</a></li>
+                              <li class="list-menu__item"><a href="#">Tapochki</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-sporting">Sporting goods</a>
+                              <li class="list-menu__item"><a href="#">Outdoor sports</a></li>
+                              <li class="list-menu__item"><a href="#">Team watersports 💦</a></li>
+                              <li class="list-menu__item"><a href="#">Exercies & fitness</a></li>
+                              <li class="list-menu__item"><a href="#">Fantiki & Vkladishi</a></li>
+                              <li class="list-menu__item"><a href="#">Postcards</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-products">Setproduct</a>
+                              <li class="list-menu__item"><a href="#">Material Design System</a></li>
+                              <li class="list-menu__item"><a href="#">React & Angular</a></li>
+                              <li class="list-menu__item"><a href="#">Sexy components</a></li>
+                              <li class="list-menu__item"><a href="#">App templates</a></li>
+                              <li class="list-menu__item"><a href="#">Design & Code assets</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-electrical">Electronics</a>
+                              <li class="list-menu__item"><a href="#">Computers & Tablets</a></li>
+                              <li class="list-menu__item"><a href="#">Camers & Photo</a></li>
+                              <li class="list-menu__item"><a href="#">TV, Audio & Free porn</a></li>
+                              <li class="list-menu__item"><a href="#">Cell phones & Accessories</a></li>
+                              <li class="list-menu__item"><a href="#">Smart Homes</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-garden">Home & Garden</a>
+                              <li class="list-menu__item"><a href="#">Yard, Garden & Outdoor</a></li>
+                              <li class="list-menu__item"><a href="#">Bubba Kush</a></li>
+                              <li class="list-menu__item"><a href="#">Crafts</a></li>
+                              <li class="list-menu__item"><a href="#">Home improvement</a></li>
+                              <li class="list-menu__item"><a href="#">Pet supplies</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-mother">Toys & Hobbies</a>
+                              <li class="list-menu__item"><a href="#">Action figures</a></li>
+                              <li class="list-menu__item"><a href="#">Building toys</a></li>
+                              <li class="list-menu__item"><a href="#">Remote control toys</a></li>
+                              <li class="list-menu__item"><a href="#">Onhovered item</a></li>
+                              <li class="list-menu__item"><a href="#">Dolls & Vibrators</a></li>
+                           </ul>
+                           <ul class="body-menu__list list-menu">
+                              <a href="#" class="list-menu__title icon-car">Auto Parts & Acc...</a>
+                              <li class="list-menu__item"><a href="#">GPS & Security Devices</a></li>
+                              <li class="list-menu__item"><a href="#">Radar & Laser Detectors</a></li>
+                              <li class="list-menu__item"><a href="#">Care & Detailing</a></li>
+                              <li class="list-menu__item"><a href="#">Scooter Parts & Access...</a></li>
+                              <li class="list-menu__item"><a href="#">Carmageddon 2: Bloody...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer></footer>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220319013531"></script>
+   <script src="js/app.min.js?_v=20220319013531"></script>
+</body>
+
+</html>
